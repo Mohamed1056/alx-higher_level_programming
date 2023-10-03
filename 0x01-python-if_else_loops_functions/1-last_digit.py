@@ -4,7 +4,7 @@ number = random.randint(-10000, 10000)
 modnum = abs(number) % 10
 if (number < 0):
     modnum = -modnum
-print("Last digit of {} is {} and is".format(number, modnum), end="")
+print("Last digit of {} is {} and is ".format(number, modnum), end="")
 if (modnum > 5):
     print("greater than 5")
 elif (modnum == 0):
