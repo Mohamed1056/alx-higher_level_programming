@@ -1,1 +1,1 @@
-my readme in the root of this dir
+the readme in the dir
