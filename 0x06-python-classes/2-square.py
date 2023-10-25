@@ -2,7 +2,7 @@
 """Square module."""
 
 class Square:
-    """Defines a square."""
+    """Class that define a square."""
 
     def __init__(self, size=0):
         """Constructor.
