@@ -3,7 +3,7 @@
 """Square module."""
 
 class Square:
-    """defines the class square."""
+    """Deines the class Square"""
 
     def __init__(self, size):
         """"Constructor.
@@ -27,4 +27,4 @@ class Square:
         Returns:
             The size squared.
         """
-        return self.__size ** 2
+        return self.__size * self.__size
