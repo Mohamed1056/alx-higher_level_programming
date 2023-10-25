@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""class module of Square"""
+"""Square module"""
 
 class Square:
     """Defin a square class"""
@@ -8,6 +8,6 @@ class Square:
         """Constructor.
 
         Args:
-            size: length of a side of the squre.
+            size: length of a side of the square.
         """
         self.__size = size
