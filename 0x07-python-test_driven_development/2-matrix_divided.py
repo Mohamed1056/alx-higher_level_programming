@@ -17,11 +17,11 @@ def matrix_divide(matrix, div):
     """
     if not isinstance(div, (int, float)):
         raise TypeError("div must be a number")
-    if not isinstance(matrix, list) or len(matrix):
+    if not isinstance(matrix, list) or len(matrix) == 0:
         raise TypeError("matrix must be a matrix (list of lists) " +
                         "of integers/floats")
     for row in matrix:
-        if not isinstance(row, list) or len(row):
+        if not isinstance(row, list) or len(row) == 0:
             raise TypeError("matrix must be a matrix (list of lists) " +
                             "of integers/floats")
         if len(row) != len(matrix[0]):
