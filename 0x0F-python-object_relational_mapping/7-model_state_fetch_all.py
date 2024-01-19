@@ -2,7 +2,7 @@
 """module to get the state from model states."""
 
 from model_state import Base, State
-from sqlalchmey import create_engine
+from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 import sys
 
